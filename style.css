@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+.main-container {
+  width: 375px;
+  margin: 0 auto;
+  border: 1px solid #252525;
+  border-radius: 3px;
+  box-shadow: 0 0 5px black;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px;
+}
+
+.logo {
+  width: 127px;
+}
+
+.avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+}
+
+.profile-section {
+  padding: 10px;
+}
+
+.profile-section img {
+  float: left;
+  margin-right: 10px;
+}
+
+.bold {
+  font-size: 13px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.location {
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.post-img {
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.icon-container {
+  margin-left: 10px;
+}
+.icon-container img{
+  width: 22px;
+  margin-right: 13px;
+}
+
+.info-container {
+  padding: 0 13px 13px 13px;
+}
+
+.post-description {
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.post {
+  border-top: 1px solid black;
+}
