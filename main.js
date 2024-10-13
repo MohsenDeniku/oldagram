@@ -35,13 +35,13 @@ function render() {
     mainHtml += `
     <div class='post'>
       <div class="profile-section">
-          <img class="avatar" src="${posts[post].avatar}" alt="${posts[post].name}">
+          <img class="avatar" src=${posts[post].avatar} alt="${posts[post].name}">
           <p class="bold">${posts[post].name}<span class="location">${posts[post].location}</span></p>
       </div>
-      <img class="post-img" src="${posts[post].post}" alt="${posts[post].name}">
+      <img class="post-img" src=${posts[post].post} alt="${posts[post].name}">
       <div class="icon-container">
-        <img src="./images/icon-heart.png" alt="">
-        <img src="./images/icon-comment.png" alt="">
+        <img src="images/icon-heart.png" alt="">
+        <img src="images/icon-comment.png" alt="">
         <img src="images/icon-dm.png" alt="">
       </div>
       <div class="info-container">
